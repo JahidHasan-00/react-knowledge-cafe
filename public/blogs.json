@@ -1,0 +1,53 @@
+[
+    {
+      "id": "1",
+      "cover": "https://i.ibb.co/7yBYHBY/flat-lay-desktop-with-notebook-pizza.jpg",
+      "title": "the art of programming",
+      "author": "john doe",
+      "author_img": "https://i.ibb.co/z7vgXQ7/handsome-young-businessman-working-office.jpg",
+      "posted_date": "2024-04-13",
+      "reading_time": 10,
+      "hashtags": ["programming", "coding", "development"]
+    },
+    {
+      "id": "2",
+      "cover": "https://i.ibb.co/JQnYMby/6310212.jpg",
+      "title": "machine learning basics",
+      "author": "jane smith",
+      "author_img": "https://i.ibb.co/VVBM8vs/portrait-young-man-while-studying-books.jpg",
+      "posted_date": "2024-04-12",
+      "reading_time": 8,
+      "hashtags": ["machine learning", "data science", "artificial intelligence"]
+    },
+    {
+      "id": "3",
+      "cover": "https://i.ibb.co/wpYzZg2/toy-bricks-table-with-word-my-blog.jpg",
+      "title": "exploring space",
+      "author": "elon musk",
+      "author_img": "https://i.ibb.co/jRsNV2g/serious-readhead-bearded-man-white-tshirt-holding-folder-pen.jpg",
+      "posted_date": "2024-04-11",
+      "reading_time": 15,
+      "hashtags": ["space", "exploration", "science"]
+    },
+    {
+      "id": "4",
+      "cover": "https://i.ibb.co/sV1xC4M/wireless-keyboard-mouse-with-tablets-succulent-plant-eyeglasses-against-yellow-surface.jpg",
+      "title": "the art of cooking",
+      "author": "sara lee",
+      "author_img": "https://i.ibb.co/hWSLL4W/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction.jpg",
+      "posted_date": "2024-04-10",
+      "reading_time": 12,
+      "hashtags": ["cooking", "recipes", "food"]
+    },
+    {
+      "id": "5",
+      "cover": "https://i.ibb.co/9sK6Dmf/notepad-pen-paper-clipboard-with-paperclips-laptop-green-background.jpg",
+      "title": "traveling the world",
+      "author": "alexander smith",
+      "author_img": "https://i.ibb.co/R7sBzY7/confident-smiling-businesswoman-writing-notes.jpg",
+      "posted_date": "2024-04-09",
+      "reading_time": 20,
+      "hashtags": ["travel", "adventure", "explore"]
+    }
+  ]
+  
