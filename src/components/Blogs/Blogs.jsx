@@ -9,10 +9,9 @@ const Blogs = () => {
         .then(data => setBlogs(data))
     }, [])
     return (
-        <div>
-            {
-                blogs.map(blog => <div key={blog.id}><img src={blog.cover}></img></div>)
-            }
+        <div className="md:w-1/2">
+            <h2 className="text-2xl font-bold">Blogs: {blogs.length}</h2>
+            
         </div>
     );
 };
