@@ -2,7 +2,7 @@
 import {BsBookmarks} from 'react-icons/bs'
 import PropTypes from 'prop-types'
 const Blog = ({blog, handleAddToBookmarks, handleMarksAsRead}) => {
-    const {title, cover, author, author_img, reading_time, posted_date, hashtags} = blog;
+    const {id, title, cover, author, author_img, reading_time, posted_date, hashtags} = blog;
     return (
         <div className='space-y-6 mb-7'>
             <img src={cover} alt={`Cover picture of the title ${title}`} />
@@ -16,7 +16,7 @@ const Blog = ({blog, handleAddToBookmarks, handleMarksAsRead}) => {
                 </div>
                 <div>
                     <span className='font-medium text-xl text-[#11111199]'>{reading_time} min read</span>
-                    <button className='ml-4 text-xl' onClick={()=>handleAddToBookmarks(blog)}><BsBookmarks/></button>
+                    <button className='btn ml-4 text-2xl text-blue-400' onClick={()=>handleAddToBookmarks(blog)}><BsBookmarks/></button>
                 </div>
             </div>
             <h2 className='text-4xl'>{title}</h2>
@@ -25,7 +25,7 @@ const Blog = ({blog, handleAddToBookmarks, handleMarksAsRead}) => {
                 hashtags.map((hash, idx) => <span key={idx}><a className='font-medium text-xl text-[#11111199]' href="">#{hash}</a></span>)
             }
             </p>
-            <button onClick={()=>handleMarksAsRead(reading_time)} className='font-semibold text-xl text-blue-500 underline'>Mark as read</button>
+            <button onClick={()=>handleMarksAsRead(reading_time, id)} className='font-semibold text-xl text-blue-500 underline'>Mark as read</button>
         </div>
     );
 };
